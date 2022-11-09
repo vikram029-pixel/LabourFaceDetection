@@ -6,7 +6,7 @@ import PIL.ImageFont
 import PIL.ImageDraw
 import numpy as np
 import time
-font = PIL.ImageFont.truetype("Acme____.ttf", 20)
+font = PIL.ImageFont.truetype("arial.ttf", 20)
 
 with open('encoded_people.pickle', 'rb') as filename:
     people = pickle.load(filename)
